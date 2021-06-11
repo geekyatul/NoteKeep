@@ -1,0 +1,33 @@
+
+.singlenote{
+    margin: 2rem;
+    min-width: 300px;
+    height: 150px;
+    box-shadow: 0 1rem 1rem rgb(148, 147, 145);
+    border-radius: 1rem;
+    border: 2px solid green;
+    position: relative;
+    padding: 1rem;
+}
+.singlenote p{
+    margin-top: 1rem;
+
+}
+
+.singlenote button{
+    border: 0;
+   border-radius: 30px;
+   box-shadow: 0 0.5rem 1rem grey;
+   cursor: pointer;
+   bottom: .1rem;
+   position:absolute;
+   right:1rem;
+   width: 2rem;
+   height: 2rem;
+   color: black;
+   background-color: white;
+
+}
+.singlenote button:active{
+    color:red;
+}
